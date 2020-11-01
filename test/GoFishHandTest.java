@@ -14,6 +14,7 @@ class GoFishHandTest {
 		assertTrue(hand instanceof GoFishHand);
 	}
 	
+	
 	@Test
 	void testGetRanks() {
 		GoFishHand hand = new GoFishHand(new Card[] {});
